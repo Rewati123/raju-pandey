@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sum</title>
+    <script>
+        function sum()
+        {
+            var first = window.document.myscreen.num1.value;
+            var second = window.document.myscreen.num2.value;
+            var result = parseInt(first) + parseInt(second);
+            window.document.myscreen.res.value = result;
+       
+        }
+    </script>
+
+
+</head>
+<body>
+    <form action="" name="myscreen">
+        <input type="text" name="num1" placeholder="enter 1st no">
+        <input type="text" name="num2" placeholder="enter 2nd no">
+        <input type="text" name="res" placeholder="result">
+        <input type="button" value="add" onclick="sum()">
+    
+    
+    </form>
+</body>
+</html>
